@@ -5,9 +5,9 @@ import styled from 'styled-components';
 
 const Img = styled.div`
 text-align: center;
-    display: inline-block;
-    width:85%;
-    background: white;
+   display: inline-block;
+   width:85%;
+   background: white;
    border: 1px solid #B9D6C2 ;
    margin-bottom: 8px;
    margin-right: 8px;

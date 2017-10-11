@@ -2,15 +2,23 @@ import React, { Component } from 'react';
 import { FaInstagram, FaUser, FaHeartO, FaCompass, FaSearch } from 'react-icons/lib/fa';
 import styled from 'styled-components';
 
-const Header = styled.div`
-background-color: blue;
+const Bar = styled.div`
+background-color: white;
+align-items: center;
 display: flex;
-justify-content: space-between`;
+flex-direction: row;
+justify-content: space-between;
+padding: 0px 40px;
+font-size: 40px;
+border-bottom: 1px solid #DCDCDC :
+margin-bottom: 60px;
+height: 77px; 
+` ;
 
 class Navbar extends Component{
   render(){
     return (
-      <Header>
+      <Bar>
         <h3><FaInstagram /> | Instaclone</h3>
         <FaSearch/>
         <div>
@@ -21,7 +29,7 @@ class Navbar extends Component{
           <FaHeartO />
           <FaUser />
         </div>
-      </Header>
+      </Bar>
     );
   }
 }
