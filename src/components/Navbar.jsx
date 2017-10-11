@@ -9,7 +9,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 padding: 0px 40px;
-font-size: 40px;
+font-size: 20px;
 border-bottom: 1px solid #DCDCDC :
 margin-bottom: 60px;
 height: 77px; 
@@ -20,8 +20,8 @@ class Navbar extends Component{
     return (
       <Bar>
         <h3><FaInstagram /> | Instaclone</h3>
-        <FaSearch/>
         <div>
+        <FaSearch/> 
         <input type="text"/>
         </div>
         <div>
