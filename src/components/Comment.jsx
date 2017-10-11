@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
 
+const comment = styled.div`
+display: flex;
+`
 class Comment extends Component {
   render() {
     const {comment} = this.props;

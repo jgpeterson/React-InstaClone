@@ -1,6 +1,13 @@
 import React, {Component} from 'react';
 import Post from './Post';
 import FakePost from '../seed/fakePost.js'
+import styled from 'styled-components';
+
+
+const posts = styled.div`
+display: flex;
+justify-content: center;
+`
 
 class Posts extends Component {
   state = {
